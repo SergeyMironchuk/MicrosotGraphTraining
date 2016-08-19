@@ -1,0 +1,46 @@
+﻿@using Resources
+
+@if (!string.IsNullOrEmpty(ViewBag.UserName))
+{
+    <text>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="navbar-text">
+                @*The 'preferred_username' claim can be used for showing the user's primary way of identifying themselves.*@
+                Hello, @(ViewBag.UserName)
+            </li>
+            <li>
+                @Html.ActionLink(Resource.SignOut, "SignOut", "Home")
+            </li>
+        </ul>
+    </text>
+}
+else
+{
+    <style type="text/css">
+        ul.links {
+            list-style-type: none;
+        }
+
+            ul.links li {
+                display: inline-block;
+                border-left: 1px solid black;
+                padding-left: 10px;
+                margin-left: 10px;
+            }
+
+                ul.links li:first-child {
+                    border-left: 0;
+                    padding-left: 0;
+                    margin-left: 0;
+                }
+    </style>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="@Url.Action("SignIn", "Home")" title="Sign in" class="links">
+                @Resource.SignIn
+            </a>
+        </li>
+    </ul>
+}
+
