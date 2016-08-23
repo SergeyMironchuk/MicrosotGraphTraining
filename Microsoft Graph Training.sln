@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft Graph Training", "Microsoft Graph Training\Microsoft Graph Training.csproj", "{7E86C505-414C-4D01-8DC3-940DCEEFD956}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTraining.HttpServices", "GraphTraining.HttpServices\GraphTraining.HttpServices.csproj", "{B31EB5A9-E26A-4053-877D-0D361B1DD765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTraining.WebUI", "GraphTraining.WebUI\GraphTraining.WebUI.csproj", "{6817BCD9-797E-4D69-AE09-4D604F05B9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTraining.Console", "GraphTraining.Console\GraphTraining.Console.csproj", "{6963DC54-DAC2-4AF1-BA83-7565C50E7174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E86C505-414C-4D01-8DC3-940DCEEFD956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E86C505-414C-4D01-8DC3-940DCEEFD956}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E86C505-414C-4D01-8DC3-940DCEEFD956}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E86C505-414C-4D01-8DC3-940DCEEFD956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31EB5A9-E26A-4053-877D-0D361B1DD765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31EB5A9-E26A-4053-877D-0D361B1DD765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31EB5A9-E26A-4053-877D-0D361B1DD765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31EB5A9-E26A-4053-877D-0D361B1DD765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6817BCD9-797E-4D69-AE09-4D604F05B9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6817BCD9-797E-4D69-AE09-4D604F05B9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6817BCD9-797E-4D69-AE09-4D604F05B9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6817BCD9-797E-4D69-AE09-4D604F05B9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6963DC54-DAC2-4AF1-BA83-7565C50E7174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6963DC54-DAC2-4AF1-BA83-7565C50E7174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6963DC54-DAC2-4AF1-BA83-7565C50E7174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6963DC54-DAC2-4AF1-BA83-7565C50E7174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
